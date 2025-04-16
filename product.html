@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="bg-[url(/images/hero_peach_desktop.png)] bg-no-repeat bg-cover">
+        <header
+            class="grid grid-cols-4 md:grid-cols-12 lg:grid-cols-12 gap-[20px] px-[15px] py-[20px] text-center items-center justify-items-center">
+            <nav class="w-10 h-10 md:hidden"><img src="images/circles-four-fill.svg" alt="hamburger Menu">
+            </nav>
+
+            <img class="w-[105px] h-[28px] col-start-2 col-span-2 md:col-start-1 md:col-span-2 lg:col-start-1 lg:col-span-2"
+                src="images/wordmark.png" alt="Orbitz Logo">
+
+            <ul
+                class="flex items-center justify-around bg-[#FFEEB8] w-full h-[40px] rounded-[25px] text-xs max-md:hidden md:col-start-4 md:col-span-7 lg:col-start-4 lg:col-span-7 shadow-md">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <img class="w-[32px] h-[32px] col-start-4 col-span-1 md:col-start-11 md:col-span-2 lg:col-start-11 lg:col-span-2 cursor-pointer"
+                src="images/parcel.png" alt="Cart Icon">
+
+        </header>
+
+        <section
+            class="h-[590px] grid grid-cols-4 md:grid-cols-12 lg:grid-cols-12 gap-[20px] px-[15px] pb-[20px] text-center items-center justify-items-center">
+
+            <img class=" h-[428px] w-[474px] rounded-[25px] content-center text-xs my-[20px] col-start-2 col-span-2 md:col-start-2 md:col-span-6 lg:col-start-2 lg:col-span-6"
+                src="images/all_products.png" alt="">
+
+            <div
+                class="col-start-2 col-span-2 text-xl text-center md:col-start-9 md:col-span-3 md:text-left lg:col-start-9 lg:col-span-3 ">
+                <h1 class="md:text-[24px] lg:text-[32px] font-bold">Let's explore our product!</h1>
+            </div>
+        </section>
+    </div>
+
+    <main class="bg-[#F5F5F5]">
+        <h2 class="text-center pt-[64px] pb-[40px] font-bold md:text-[20px] lg:text-[24px]">Seasonal Products</h2>
+
+        <figure class="grid grid-cols-4 md:grid-cols-12 gap-[20px] px-[15px] justify-items-center pb-[52px]">
+
+            <img class="rounded-[15px] col-start-1 col-span-2 md:col-start-3 md:col-span-4"
+                src="images/vanilla_poster.jpg" alt="vanilla pokemon poster">
+            <img class="rounded-[15px] col-span-2 md:col-span-4" src="images/raspberry_poster.jpg"
+                alt="raspberry pokemon poster">
+            <img class="max-md:hidden rounded-[15px] col-span-2 md:col-start-3 md:col-span-8" src="images/banner.jpg"
+                alt="brand collaboration banner">
+            <img class="rounded-[15px] col-start-1 col-span-2 md:col-start-3 md:col-span-4"
+                src="images/black_ poster.jpg" alt="black berry pokemon poster">
+            <img class="rounded-[15px] col-start-3 col-span-2 md:col-span-4" src="images/blueberry_poster.jpg"
+                alt="blueberry pokemon poster">
+        </figure>
+
+        <section
+            class="bg-[#F4C9B8] h-[175px] grid grid-cols-4 md:grid-cols-12 gap-[20px] px-[15px] items-center justify-items-center">
+            <div class="col-start-1 col-span-2 md:col-start-1 md:col-span-3">
+                <h2 class="text-[20px] font-bold">Special Offers!</h2>
+                <div>Get 10% off for first purchase</div>
+            </div>
+
+            <button
+                class="border-[2px] border-black rounded-[25px] h-[52px] w-[100px] md:w-[140px] lg:w-[150px] hover:bg-[#FF7A7A] hover:border-none hover:text-white col-start-4 col-span-1 md:col-start-11 md:col-span-2 text-center content-center">
+                Coupon
+            </button>
+        </section>
+
+
+        <h2 class="text-center pt-[64px] pb-[40px] font-bold md:text-[20px] lg:text-[24px]">All Products</h2>
+
+        <section
+            class="grid grid-cols-4 md:grid-cols-12 gap-[20px] px-[15px] md:mb-[76px] text-[14px] items-center justify-items-center">
+            <div
+                class="bg-[#FFFFFF] rounded-[25px] p-[14px] col-start-1 col-span-2 md:col-start-1 md:col-span-4 lg:col-start-1 lg:col-span-3 flex flex-col">
+                <div class="h-[25px] w-full"></div>
+                <img src="images/raspberry _citrus.pic.jpg" alt="raspberry citrus product">
+                <h3 class="font-bold">Raspberry Citrus</h3>
+                <div class="flex justify-between ">
+                    <p>$2.00</p>
+                    <img class="w-[30px] h-[30px] justify-around cursor-pointer" src="images/add.png" alt="add icon">
+                </div>
+            </div>
+            <div
+                class="bg-[#FFFFFF] rounded-[25px] p-[14px] col-span-2 md:col-start-5 md:col-span-4 lg:col-span-3 flex flex-col">
+                <div class="h-[25px] w-full"></div>
+                <img src="images/vanilla_ orange.jpg" alt="vanilla orange product">
+                <h3 class="font-bold">Vanilla Orange</h3>
+                <div class="flex justify-between ">
+                    <p>$2.00</p>
+                    <img class="w-[30px] h-[30px] justify-around cursor-pointer" src="images/add.png" alt="add icon">
+                </div>
+            </div>
+            <div
+                class="bg-[#FFFFFF] rounded-[25px] p-[14px] col-start-1 col-span-2 md:col-start-9 md:col-span-4 lg:col-span-3">
+                <div class="h-[25px] w-full"></div>
+                <img src="images/black_currant _berry.jpg" alt="black currant berry product">
+                <h3 class="font-bold">Black Currant Berry</h3>
+                <div class="flex justify-between ">
+                    <p>$2.00</p>
+                    <img class="w-[30px] h-[30px] justify-around cursor-pointer" src="images/add.png" alt="add icon">
+                </div>
+            </div>
+            <div class="bg-[#FFFFFF] rounded-[25px] p-[14px] col-start-3 col-span-2 md:col-span-4 lg:col-span-3">
+                <div class="h-[25px] w-full"></div>
+                <img src="images/blueberry_melon _strawberry.jpg" alt="blueberry melon strawberry product">
+                <h3 class="font-bold">Blueberry Melon Strawberry</h3>
+                <div class="flex justify-between">
+                    <p>$2.00</p>
+                    <img class="w-[30px] h-[30px] justify-around cursor-pointer" src="images/add.png" alt="add icon">
+                </div>
+            </div>
+            <div
+                class="bg-[#FFFFFF] rounded-[25px] p-[14px] max-md:hidden col-start-1 col-span-2 md:col-start-5 md:col-span-4 lg:col-span-3">
+
+                <div class="flex justify-end w-full h-[25px]">
+                    <img src="images/pokemon_icon.png" alt="pokemon label">
+                </div>
+                <img src="images/raspberry_poke.jpg" alt="raspberry pokemon edition">
+                <h3 class="font-bold">Raspberry Citrus</h3>
+                <div class="flex justify-between">
+                    <p>$2.50</p>
+                    <img class="w-[30px] h-[30px] justify-around cursor-pointer" src="images/add.png" alt="add icon">
+                </div>
+            </div>
+            <div class="bg-[#FFFFFF] rounded-[25px] p-[14px] max-md:hidden col-span-2 md:col-span-4 lg:col-span-3">
+                <div class="flex justify-end w-full h-[25px]">
+                    <img src="images/pokemon_icon.png" alt="pokemon label">
+                </div>
+                <img src="images/vanilla_ poke.jpg" alt="vanilla pokemon edition">
+                <h3 class="font-bold">Vanilla Orange</h3>
+                <div class="flex justify-between ">
+                    <p>$2.50</p>
+                    <img class="w-[30px] h-[30px] justify-around cursor-pointer" src="images/add.png" alt="add icon">
+                </div>
+            </div>
+            <div
+                class="bg-[#FFFFFF] rounded-[25px] p-[14px] max-md:hidden col-start-1 col-span-2 md:col-start-1 md:col-span-4 lg:col-span-3">
+                <div class="flex justify-end w-full h-[25px]">
+                    <img src="images/pokemon_icon.png" alt="pokemon label">
+                </div>
+                <img src="images/black_ poke.jpg" alt="black pokemon edition">
+                <h3 class="font-bold">Black Currant Berry</h3>
+                <div class="flex justify-between ">
+                    <p>$2.50</p>
+                    <img class="w-[30px] h-[30px] justify-around cursor-pointer" src="images/add.png" alt="add icon">
+                </div>
+            </div>
+            <div
+                class="bg-[#FFFFFF] rounded-[25px] p-[14px] max-md:hidden col-start-3 col-span-2 md:col-span-4 lg:col-span-3">
+                <div class="flex justify-end w-f h-[25px]">
+                    <img class="w-[25px] h-[25px]" src="images/pokemon_icon.png" alt="pokemon label">
+                </div>
+                <img src="images/blueberry_poke.jpg" alt="blueberry pokemon edition">
+                <h3 class="font-bold">Blueberry Melon Strawberry</h3>
+                <div class="flex justify-between ">
+                    <p>$2.50</p>
+                    <img class="w-[30px] h-[30px] justify-around cursor-pointer" src="images/add.png" alt="add icon">
+                </div>
+            </div>
+        </section>
+        <section class="grid grid-cols-4 md:grid-cols-12 gap-[20px] px-[15px]">
+            <a class="col-start-4 col-span-1 mb-[76px] mt-[18px] md:hidden" href="#">View more</a>
+        </section>
+    </main>
+
+
+    <footer>
+        <section
+            class="grid grid-cols-4 md:grid-cols-12 lg:grid-cols-12 gap-[20px] px-[5px] pt-[43px] lg:text-[14px] bg-[#E9A297] w-full justify-items-center text-xs">
+            <img class="w-[105px] h-[28px] col-start-2 col-span-2 md:col-start-2 md:col-span-2 lg:col-start-2 lg:col-span-2"
+                src="images/wordmark.png" alt="Orbitz Logo">
+
+            <div class="col-start-2 col-span-2 md:col-span-2 lg:col-span-2">Home</div>
+            <div class="col-start-2 col-span-2 md:col-span-2 lg:col-span-2">Products</div>
+            <div class="col-start-2 col-span-2 md:col-span-2 lg:col-span-2">About Us</div>
+            <div class="col-start-2 col-span-2 md:col-span-2 lg:col-span-2">Contact</div>
+
+        </section>
+
+        <div class="bg-[#E9A297] pt-[40px] pb-[57px]">
+            <div class="border-[1px] mx-[15px]"><span></span></div>
+        </div>
+        <section
+            class="grid grid-cols-4 md:grid-cols-12 lg:grid-cols-12 gap-[20px] pb-[18px] px-[15px] bg-[#E9A297] w-full justify-items-center text-xs">
+            <p class="col-start-1 col-span-1 md:col-start-5 md:col-span-4 lg:col-start-5 lg:col-span-4">&#169;
+                Copyright
+                2025 Orbitz</p>
+            <picture
+                class="flex gap-[2px] col-start-4 md:order-[-1] md:col-start-6 md:col-span-2 lg:col-start-6 lg:col-span-2">
+                <img class="w-[20px] h-[20px]" src="images/facebook.png" alt="Facebook">
+                <img class="w-[20px] h-[20px]" src="images/instagram.png" alt="Indtagram">
+                <img class="w-[20px] h-[20px]" src="images/tiktok.png" alt="Tiktok">
+                <img class="w-[20px] h-[20px]" src="images/twitter.png" alt="Twitter">
+            </picture>
+
+        </section>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

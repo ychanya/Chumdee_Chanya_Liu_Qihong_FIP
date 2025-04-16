@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>Contact</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="bg-[url(/images/hero_blue_desktop.png)] bg-no-repeat bg-cover">
+        <header
+            class="grid grid-cols-4 md:grid-cols-12 lg:grid-cols-12 gap-[20px] px-[15px] py-[20px] text-center items-center justify-items-center">
+            <nav class="w-10 h-10 md:hidden"><img src="images/circles-four-fill.svg" alt="hamburger Menu">
+            </nav>
+
+            <img class="w-[105px] h-[28px] col-start-2 col-span-2 md:col-start-1 md:col-span-2 lg:col-start-1 lg:col-span-2"
+                src="images/wordmark.png" alt="Orbitz Logo">
+
+            <ul
+                class="flex items-center justify-around bg-[#FFEEB8] w-full h-[40px] rounded-[25px] text-xs max-md:hidden md:col-start-4 md:col-span-7 lg:col-start-4 lg:col-span-7 shadow-md">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <img class="w-[32px] h-[32px] col-start-4 col-span-1 md:col-start-11 md:col-span-2 lg:col-start-11 lg:col-span-2 cursor-pointer"
+                src="images/parcel.png" alt="Cart Icon">
+
+        </header>
+
+        <section
+            class="h-[590px] grid grid-cols-4 md:grid-cols-12 lg:grid-cols-12 gap-[20px] px-[15px] pb-[20px] text-center items-center justify-items-center">
+
+            <img class="content-center col-start-2 col-span-2 md:col-start-2 md:col-span-6 lg:col-start-2 lg:col-span-6"
+                src="images/contact_desktop.png" alt="contact icon">
+
+            <div
+                class="col-start-2 col-span-2 text-xl text-center md:col-start-9 md:col-span-3 md:text-left lg:col-start-9 lg:col-span-3 ">
+                <h1 class="md:text-[20px] lg:text-[32px]">Get in touch</h1>
+                <p class="text-sm lg:text-[16px] mt-[20px]"> We’d love to hear from you! Whether you have a question or
+                    a
+                    suggestion, feel free to reach out.
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <main
+        class="grid grid-cols-4 md:grid-cols-12 lg:grid-cols-12 gap-[20px] px-[15px] py-[20px] pb-[70px] pt-[30px] text-center justify-items-center bg-[#F5F5F5]">
+
+        <h2
+            class="text-[20px] col-start-2 col-span-2 md:text-[20px] md:col-start-2 md:col-span-3 lg:text-[32px] lg:col-start-2 lg:col-span-3">
+            Contact Details
+        </h2>
+
+        <section
+            class="col-start-1 col-span-4 md:col-start-2 md:col-span-4 lg:col-start-2 lg:col-span-4 flex flex-col gap-[16px]">
+            <div
+                class="bg-[#FFFFFF] w-full h-[206px] rounded-[25px] px-[16px] justify-items-center content-center text-xs">
+                <img class="w-full h-[178px] rounded-[25px]" src="images/map.png" alt="google map">
+
+            </div>
+
+
+            <div class="bg-[#FFFFFF] w-full h-[111px] rounded-[25px] flex items-center text-xs">
+                <img class="w-[25px] h-[25px] ml-[28px]" src="images/email.png" alt="Email Icon">
+                <div class="ml-[47px] text-left">Orbitz@gmail.com</div>
+            </div>
+            <div class="bg-[#FFFFFF] w-full h-[111px] rounded-[25px] flex items-center text-xs">
+                <img class="w-[25px] h-[25px] ml-[28px]" src="images/telephone.png" alt="Phone Icon">
+                <p class="ml-[47px] text-left">
+                    (270) 781-5111</p>
+            </div>
+            <div class="bg-[#FFFFFF] w-full h-[111px] rounded-[25px] flex items-center text-xs">
+                <img class="w-[25px] h-[25px] ml-[28px]" src="images/gps.png" alt="Location Icon">
+                <p class="ml-[47px] mr-[23px] text-left">
+                    201 Park St,Bowling Green,Kentucky,
+                    42101, United States</p>
+            </div>
+        </section>
+
+
+        <form
+            class="bg-[#FFFFFF] shadow-lg w-full h-auto rounded-[25px] text-left text-sm gap-[20px] py-[30px] px-[30px] col-start-1 col-span-4 md:col-start-6 md:col-span-6 grid md:grid-cols-6">
+            <div class="col-start-1 col-span-4 md:col-start-2 md:col-span-2 lg:col-start-2 lg:col-span-2">
+                <label class="block text-gray-700 mb-1" for="name">First name </label>
+                <input class="w-full h-[55px] text-gray-300 rounded-[15px] px-3 py-2 bg-[#F5F5F5]" type="text"
+                    id="first-name" placeholder="Your first name">
+            </div>
+            <div class="col-start-1 col-span-4 md:col-start-4 md:col-span-2 lg:col-start-4 lg:col-span-2">
+                <label class="block text-gray-700 mb-1" for="email">Last name</label>
+                <input class="w-full h-[55px] text-gray-300 rounded-[15px] px-3 py-2 bg-[#F5F5F5]" type="text"
+                    id="last-name" placeholder="Your last name">
+            </div>
+            <div class="col-start-1 col-span-4 md:col-start-2 md:col-span-2 lg:col-start-2 lg:col-span-2">
+                <label class="block text-gray-700 mb-1" for="email">Phone number</label>
+                <input class="w-full h-[55px] text-gray-300 rounded-[15px] px-3 py-2 bg-[#F5F5F5]" type="number"
+                    id="phone-number" placeholder="Your phone number">
+            </div>
+            <div class="col-start-1 col-span-4 md:col-start-4 md:col-span-2 lg:col-start-4 lg:col-span-2">
+                <label class="block text-gray-700 mb-1" for="email">Email</label>
+                <input class="w-full h-[55px] text-gray-300 rounded-[15px] px-3 py-2 bg-[#F5F5F5]" type="email"
+                    id="email" placeholder="Your email">
+            </div>
+            <div class="col-start-1 col-span-4 md:col-start-2 md:col-span-4 lg:col-start-2 lg:col-span-4">
+                <label class="block text-gray-700 mb-1" for="message">Message</label>
+                <textarea class="w-full h-[208px] text-gray-300 rounded-[15px] px-3 py-2 bg-[#F5F5F5]" id="message"
+                    placeholder="Your message"></textarea>
+            </div>
+            <button
+                class="w-full h-[51px] text-black bg-[#D7F0F2] hover:bg-[#00D2E1] hover:text-white rounded-[25px] py-2 col-start-2 col-span-2 md:col-start-3 md:col-span-2 lg:col-start-3 lg:col-span-2"
+                type="submit">
+                Submit
+            </button>
+        </form>
+    </main>
+
+
+    <footer>
+        <section
+            class="grid grid-cols-4 md:grid-cols-12 lg:grid-cols-12 gap-[20px] px-[5px] pt-[43px] lg:text-[14px] bg-[#90D0D3] w-full justify-items-center text-xs">
+            <img class="w-[105px] h-[28px] col-start-2 col-span-2 md:col-start-2 md:col-span-2 lg:col-start-2 lg:col-span-2"
+                src="images/wordmark.png" alt="Orbitz Logo">
+
+            <div class="col-start-2 col-span-2 md:col-span-2 lg:col-span-2">Home</div>
+            <div class="col-start-2 col-span-2 md:col-span-2 lg:col-span-2">Products</div>
+            <div class="col-start-2 col-span-2 md:col-span-2 lg:col-span-2">About Us</div>
+            <div class="col-start-2 col-span-2 md:col-span-2 lg:col-span-2">Contact</div>
+
+        </section>
+
+        <div class="bg-[#90D0D3] pt-[40px] pb-[57px]">
+            <div class="border-[1px] mx-[15px]"><span></span></div>
+        </div>
+        <section
+            class="grid grid-cols-4 md:grid-cols-12 lg:grid-cols-12 gap-[20px] pb-[18px] px-[15px] bg-[#90D0D3] w-full justify-items-center text-xs">
+            <p class="col-start-1 col-span-1 md:col-start-5 md:col-span-4 lg:col-start-5 lg:col-span-4">&#169;
+                Copyright
+                2025 Orbitz</p>
+            <picture
+                class="flex gap-[2px] col-start-4 md:order-[-1] md:col-start-6 md:col-span-2 lg:col-start-6 lg:col-span-2">
+                <img class="w-[20px] h-[20px]" src="images/facebook.png" alt="Facebook">
+                <img class="w-[20px] h-[20px]" src="images/instagram.png" alt="Indtagram">
+                <img class="w-[20px] h-[20px]" src="images/tiktok.png" alt="Tiktok">
+                <img class="w-[20px] h-[20px]" src="images/twitter.png" alt="Twitter">
+            </picture>
+
+        </section>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
