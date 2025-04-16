@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>Orbitz Homepage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#F5F5F5]">
+    <section class="bg-[url(/images/hero_orange_desktop.png)] bg-no-repeat bg-cover">
+        <header
+            class="grid grid-cols-4 md:grid-cols-12 lg:grid-cols-12 gap-[20px] px-[15px] py-[20px] text-center items-center justify-items-center">
+            <img id="hamburgerBtn" class="w-10 h-10 md:hidden" src="images/circles-four-fill.svg" alt="hamburger Menu">
+            <section id="mobileMenu" class="absolute top-0 bg-white w-full md:hidden hidden py-[50px] px-[38px]">
+                <button id="closeHamburger"
+                    class="text-2xl w-[35px] h-[35px] font-bold self-end bg-black text-white rounded-full hover:bg-slate-700">&times;</button>
+                <ul>
+                    <li class="w-full text-center py-4 hover:opacity-90 list-none  hover:text-[#FFA748]"><a
+                            href="index.html">Home</a></li>
+                    <li class="w-full text-center py-4 hover:opacity-90 list-none hover:text-[#FFA748]"><a
+                            href="product.html">Product</a>
+                    </li>
+                    <li class="w-full text-center py-4 hover:opacity-90 list-none hover:text-[#FFA748]"><a
+                            href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </section>
+
+            <img class="w-[105px] h-[28px] col-start-2 col-span-2 md:col-start-1 md:col-span-2 lg:col-start-1 lg:col-span-2"
+                src="images/wordmark.png" alt="Orbitz Logo">
+
+            <ul
+                class="flex items-center justify-around bg-[#FFEEB8] w-full h-[40px] rounded-[25px] text-xs max-md:hidden md:col-start-4 md:col-span-7 lg:col-start-4 lg:col-span-7 shadow-md">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <img class="w-[32px] h-[32px] col-start-4 col-span-1 md:col-start-11 md:col-span-2 lg:col-start-11 lg:col-span-2 cursor-pointer"
+                src="images/parcel.png" alt="Cart Icon">
+
+        </header>
+
+        <section
+            class="md:h-[590px] grid grid-cols-4 md:grid-cols-12 lg:grid-cols-12 gap-[20px] px-[15px] pb-[20px] text-center items-center justify-items-center">
+
+            <img class=" w-full rounded-[25px] content-center text-xs col-start-2 col-span-2 md:col-start-4 md:col-span-2 lg:col-start-4 lg:col-span-2"
+                src="images/hero_index.jpg" alt="vanilla oreange flavor">
+
+            <div
+                class="col-start-2 col-span-2 text-xl text-center md:col-start-8 md:col-span-4 md:text-left lg:col-start-8 lg:col-span-4">
+                <h1 class="md:text-[24px] lg:text-[32px] font-bold">Life is longer with
+                    better memories
+                    <br>
+                    Drink an Orbitz and live forever!
+                </h1>
+                <div class="flex text-sm items-center gap-[20px] mt-[30px]">
+                    <button
+                        class="bg-[#FFEEB8] shadow-md rounded-[25px] w-[178px] h-[54px] hover:bg-[#FFA748] hover:text-white">Shop
+                        now</button>
+                    <a href="#">Explore More&rarr;</a>
+                </div>
+            </div>
+        </section>
+    </section>
+
+
+    <main>
+
+        <h2 class="text-center sm:text-[16px] md:text-[20px] lg:text-[24px] font-bold mt-[36px] mb-[22px]">Featured
+            Products</h2>
+
+        <section class="grid grid-cols-4 md:grid-cols-12 lg:grid-cols-12 gap-[20px] px-[15px]">
+            <div
+                class="bg-[#FFFFFF] w-full rounded-[25px] p-[20px] col-start-2 col-span-2 md:col-start-1 md:col-span-4">
+                <h3 class="font-bold">Vanilla Orange</h3>
+                <p>$2.00</p>
+                <div class="flex justify-center items-center">
+                    <img class="sm:w-[200px] md:w-[250px] lg:w-[300px]" src="images/vanilla_ orange.jpg"
+                        alt="vanilla orange flavor">
+                </div>
+            </div>
+
+            <div
+                class="bg-[#FFFFFF] w-full rounded-[25px] p-[20px] col-start-2 col-span-2 md:col-start-5 md:col-span-4">
+                <h3 class="font-bold">Raspberry Citrus</h3>
+                <p>$2.00</p>
+                <div class="flex justify-center items-center">
+                    <img class="sm:w-[200px] md:w-[250px] lg:w-[300px]" src="images/raspberry _citrus.pic.jpg"
+                        alt="raspberry citrus flavor">
+                </div>
+            </div>
+
+            <div
+                class="bg-[#FFFFFF] w-full rounded-[25px] p-[20px] col-start-2 col-span-2 md:col-start-9 md:col-span-4">
+                <h3 class="font-bold">Black Currant Berry</h3>
+                <p>$2.00</p>
+                <div class="flex justify-center items-center">
+                    <img class="sm:w-[200px] md:w-[250px] lg:w-[300px]" src="images//black_currant _berry.jpg"
+                        alt="black currant berry flavor">
+                </div>
+            </div>
+
+        </section>
+        <section class="grid grid-cols-4 text-center md:grid-cols-12 lg:grid-cols-12 gap-[20px] px-[15px] pt-[20px]">
+            <div class="col-start-2 col-span-2 md:col-start-11 md:col-span-2">View all products</div>
+        </section>
+    </main>
+
+
+    <h2 class="text-center sm:text-[16px] md:text-[20px] lg:text-[24px] font-bold mt-[36px] mb-[22px]">Fizz, Flavor, and
+        Fun in Every Sip!</h2>
+    <section
+        class="bg-[url(/images/m_poster.jpg)] md:bg-[url(/images/poster.png)] bg-no-repeat bg-cover h-[611px] grid grid-cols-4 text-center md:grid-cols-12 lg:grid-cols-12 gap-[20px] px-[15px] items-center">
+        <div id="posterInfoContainer" class="col-start-3 col-span-2 md:col-start-9 md:col-span-3 space-y-[20px]">
+            <!-- display info area -->
+        </div>
+    </section>
+
+
+    <h2 class="text-center sm:text-[16px] md:text-[20px] lg:text-[24px] font-bold mt-[60px] mb-[22px]">Our Partners</h2>
+
+    <section
+        class="grid grid-cols-4 text-center md:grid-cols-12 lg:grid-cols-12 gap-[20px] px-[15px] pb-[74px] items-center justify-items-center">
+
+        <img class="col-start-2 col-span-2 md:col-start-3 md:col-span-2" src="images/cineplex_logo.png"
+            alt="cineplex logo">
+        <img class="col-start-2 col-span-2 md:col-start-5 md:col-span-2" src="images/girl_logo.png" alt="girl logo">
+        <img class="col-start-2 col-span-2 md:col-start-7 md:col-span-2" src="images/loblaws_logo.png"
+            alt="loblaws logo">
+        <img class="col-start-2 col-span-2 md:col-start-9 md:col-span-2" src="images/pokemon_logo.png"
+            alt="pokemon logo">
+
+    </section>
+
+    <footer>
+        <section
+            class="grid grid-cols-4 md:grid-cols-12 lg:grid-cols-12 gap-[20px] px-[5px] pt-[43px] lg:text-[14px] bg-[#EABA90] w-full justify-items-center text-xs">
+            <img class="w-[105px] h-[28px] col-start-2 col-span-2 md:col-start-2 md:col-span-2 lg:col-start-2 lg:col-span-2"
+                src="images/wordmark.png" alt="Orbitz Logo">
+
+            <div class="col-start-2 col-span-2 md:col-span-2 lg:col-span-2">Home</div>
+            <div class="col-start-2 col-span-2 md:col-span-2 lg:col-span-2">Products</div>
+            <div class="col-start-2 col-span-2 md:col-span-2 lg:col-span-2">About Us</div>
+            <div class="col-start-2 col-span-2 md:col-span-2 lg:col-span-2">Contact</div>
+
+        </section>
+
+        <div class="bg-[#EABA90] pt-[40px] pb-[57px]">
+            <div class="border-[1px] mx-[15px]"><span></span></div>
+        </div>
+        <section
+            class="grid grid-cols-4 md:grid-cols-12 lg:grid-cols-12 gap-[20px] pb-[18px] px-[15px] bg-[#EABA90] w-full justify-items-center text-xs">
+            <p class="col-start-1 col-span-1 md:col-start-5 md:col-span-4 lg:col-start-5 lg:col-span-4">&#169;
+                Copyright
+                2025 Orbitz</p>
+            <picture
+                class="flex gap-[2px] col-start-4 md:order-[-1] md:col-start-6 md:col-span-2 lg:col-start-6 lg:col-span-2">
+                <img class="w-[20px] h-[20px]" src="images/facebook.png" alt="Facebook">
+                <img class="w-[20px] h-[20px]" src="images/instagram.png" alt="Indtagram">
+                <img class="w-[20px] h-[20px]" src="images/tiktok.png" alt="Tiktok">
+                <img class="w-[20px] h-[20px]" src="images/twitter.png" alt="Twitter">
+            </picture>
+
+        </section>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
