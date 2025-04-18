@@ -12,8 +12,21 @@
     <div class="bg-[url(images/m_prod_top_bg.png)] md:bg-[url(images/hero_peach_desktop.png)] bg-no-repeat bg-cover">
         <header
             class="grid grid-cols-4 md:grid-cols-12 lg:grid-cols-12 gap-[20px] px-[15px] py-[20px] text-center items-center justify-items-center">
-            <nav class="w-10 h-10 md:hidden"><img src="images/circles-four-fill.svg" alt="hamburger Menu">
-            </nav>
+            <img id="hamburgerBtn" class="w-10 h-10 md:hidden" src="images/circles-four-fill.svg" alt="hamburger Menu">
+            <section id="mobileMenu" class="absolute top-0 bg-white w-full md:hidden hidden py-[50px] px-[38px]">
+                <button id="closeHamburger"
+                    class="text-2xl w-[35px] h-[35px] font-bold self-end bg-black text-white rounded-full hover:bg-slate-700">&times;</button>
+                <ul>
+                    <li class="w-full text-center py-4 hover:opacity-90 list-none  hover:text-[#FFA748]"><a
+                            href="index.html">Home</a></li>
+                    <li class="w-full text-center py-4 hover:opacity-90 list-none hover:text-[#FFA748]"><a
+                            href="product.html">Product</a>
+                    </li>
+                    <li class="w-full text-center py-4 hover:opacity-90 list-none hover:text-[#FFA748]"><a
+                            href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </section>
 
             <img class="w-[105px] h-[28px] col-start-2 col-span-2 md:col-start-1 md:col-span-2 lg:col-start-1 lg:col-span-2"
                 src="images/wordmark.png" alt="Orbitz Logo">
@@ -205,7 +218,7 @@
         </section>
     </footer>
 
-    <script src="js/main.js"></script>
+    <script src="js/common.js"></script>
 </body>
 
 </html>
