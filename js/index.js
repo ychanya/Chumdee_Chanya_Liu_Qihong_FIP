@@ -1,10 +1,6 @@
 console.log("JS file connected");
 let container = document.querySelector("#posterInfoContainer");
 
-const closeMobileNav = document.querySelector("#closeHamburger");
-const mobileMenu = document.querySelector("#mobileMenu");
-const hamburgerBtn = document.querySelector("#hamburgerBtn");
-
 const posterInfo = [
     {   label:"🌟 Collectable bottle",
         content:"Orbitz bottles aren’t just for drinking—they're a perfect way to reconnect with friends. Stack them up and share the memories."
@@ -41,17 +37,3 @@ posterInfo.forEach((info)=> {
     container.appendChild(button)
     container.appendChild(paragraph)
 })
-
-function toggleHamburgerMenu() {
-
-    if (mobileMenu.classList.contains("hidden")) {
-        mobileMenu.classList.remove("hidden");
-        mobileMenu.classList.add("flex", "flex-col", "justify-center");
-      } else {
-        mobileMenu.classList.remove("flex", "flex-col", "justify-center");
-        mobileMenu.classList.add("hidden");
-      }
-  }
-
-closeMobileNav.addEventListener("click", toggleHamburgerMenu);
-hamburgerBtn.addEventListener("click", toggleHamburgerMenu);
